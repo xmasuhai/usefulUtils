@@ -1,0 +1,12 @@
+{
+  "name": "usefulUtils",
+  "version": "0.0.1",
+  "description": "useful utils",
+  "main": "index.ts",
+  "repository": "git@github.com:xmasuhai/usefulUtils.git",
+  "author": "xmasuhai <xmasuhai@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esno": "^0.14.1"
+  }
+}
