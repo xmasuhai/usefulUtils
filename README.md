@@ -13,6 +13,7 @@
 - 参考：
   - [IntersectionObserver API 使用教程- 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2016/11/intersectionobserver_api.html)
   - [Intersection Observer MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/IntersectionObserver)
+  - [如何使用IntersectionObserver实现无限滚动加载的vue自定义指令](https://juejin.cn/post/7068075514748993550?utm_source=gold_browser_extension)
 
 > `ifEnterView.ts`
 
@@ -22,6 +23,7 @@
 ## 2. 识别设备
 
 - 通常使用 `window.navigator.userAgent` 获取当前设备的细节来进行识别
+- [userAgent是什么?如何根据它判断浏览器信息](https://juejin.cn/post/7068080777195421709?utm_source=gold_browser_extension)
 
 > `identifyClient.ts`
 
@@ -58,6 +60,8 @@
 - 如果不从渲染流中移除元素，只是隐藏可见性，元素仍然会被绘制，且占用视图空间
 - 当渲染长列表时，配合上方 `IntersectionObserver` 这个 API
   - 使用 `style.display` 属性来隐藏不在可视区域内的元素，能较大提升渲染性能
+  - [如何使用IntersectionObserver实现无限滚动加载的vue自定义指令](https://juejin.cn/post/7068075514748993550?utm_source=gold_browser_extension)
+
 
 ## 4. 获取 `URL` 上的 `query` 参数
 
